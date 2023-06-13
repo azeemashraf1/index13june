@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>javascript</title>
+  </head>
+  <body>
+    <div id="text1">Hello Alisha</div>
+  <button onclick="fun();">Dynamic </button> 
+  <br><br>
+  <img id="img1" src="images/header.png">
+  <button onclick="document.getElementById ('img1').src='images/BurgerImage2.png';">Change Image</button>
+   <script type="text/javascript">
+    function fun(){
+        var x=8;
+        var y=40;
+        var z=20;
+        var b=x+y*z
+         document.getElementById ('text1').innerHTML=b;
+         document.getElementById ('text1').style.color='blue';
+        document.getElementById ('text1').style.fontSize='60px';
+    }
+
+    
+   </script> 
+  </body>
+</html>
